@@ -7,9 +7,10 @@ Make a system to calculate how much money should be disbursed to each merchant b
 - Disbursements are done weekly on Monday.
 - We disburse only orders which status is completed.
 - The disbursed amount has the following fee per order:
--- 1% fee for amounts smaller than 50 €
--- 0.95% for amounts between 50€ - 300€
--- 0.85% for amounts over 300€
+
+  - 1% fee for amounts smaller than 50 €
+  - 0.95% for amounts between 50€ - 300€
+  - 0.85% for amounts over 300€
 
 ## Requirements:
 
@@ -75,5 +76,5 @@ There are multiple data structures but I'm using tables to persist data because 
 - If you don't need to persist disbursement you need to call just Fee Service like `fee, percentage = Sequra::FeeService.call(order)` it takes order and returns fee and percentage.
 
 # How to run rspec/test cases:
-- run this on console for controllers *rspec spec/controllers*
-- run this on console for models *rspec spec/models*
+- run this on console for controllers `rspec spec/controllers`
+- run this on console for models `rspec spec/models`
