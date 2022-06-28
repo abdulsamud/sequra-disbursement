@@ -1,0 +1,4 @@
+disbursement_job:
+  cron: "0 0 * * MON"
+  class: "DisbursementJob"
+  queue: default

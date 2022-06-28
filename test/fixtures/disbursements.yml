@@ -1,0 +1,19 @@
+# Read about fixtures at https://api.rubyonrails.org/classes/ActiveRecord/FixtureSet.html
+
+one:
+  fee: 1.5
+  actual_price: 1.5
+  disbursed_price: 1.5
+  week: 2022-06-28
+  percentage: 1.5
+  merchant: one
+  order: one
+
+two:
+  fee: 1.5
+  actual_price: 1.5
+  disbursed_price: 1.5
+  week: 2022-06-28
+  percentage: 1.5
+  merchant: two
+  order: two
